@@ -13,7 +13,6 @@
     <meta name="viewport" content="width=device-width" />
     <title><?php wp_title(); ?> - <?php bloginfo('name');?></title>
     <link rel="shortcut icon" href="http://cssjser.qiniudn.com/ico.ico"/>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>"/>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
