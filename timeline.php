@@ -31,7 +31,7 @@ function timeline(){
             'commentNum'=>get_comments_number(),
             'class'=>join( ' ', get_post_class())
         );
-        if(is_null($json['posts'][$post_year_month])):
+        if(is_null(@ $json['posts'][$post_year_month])):
             $json['posts'][$post_year_month]=array();
         endif;
         array_push($json['posts'][$post_year_month],$arr);

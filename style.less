@@ -279,6 +279,9 @@ HEADER
         text-decoration: none;
         color: #999;
       }
+      span{
+        margin-right: 8px;
+      }
       .post-author{
         background: url(img/post-author.png) no-repeat 0 2px;
         padding: 2px 0 2px 18px;
@@ -469,6 +472,24 @@ TIME-LINE
           position: absolute;
           top: 21px;
           right: 22px;
+        }
+      }
+      .r-column{
+        .post-inner{
+          margin-right: 0;
+          margin-left: 30px;
+          .post-date{
+            margin-left: -70px;
+          }
+        }
+        .post-dot{
+          right: inherit;
+          left: -6px;
+        }
+        .post-arrow{
+          background-image: url(img/post-arrow-alt.png);
+          right: inherit;
+          left: 22px;
         }
       }
     }
